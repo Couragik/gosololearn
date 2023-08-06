@@ -8,5 +8,5 @@ func main() {
 	var scan string
 	fmt.Println("Print something")
 	fmt.Scanln(&scan)
-	fmt.Println(scan)
+	fmt.Println("Your input was: " + scan)
 }
